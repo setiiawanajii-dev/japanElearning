@@ -1,6 +1,0 @@
-'use client';
-import {useState,useRef} from 'react';
-export default function Login(){
- const [password,setPassword]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false);const pending=useRef(false);
- return <main className="landing"><a className="brand" href="/">こ kotoba.</a><section className="card form-card" style={{maxWidth:480,margin:'60px auto'}}><span className="eyebrow">RUANG BELAJAR PRIBADI</span><h1>Selamat datang kembali.</h1><p>Masukkan kata sandi pribadi untuk melanjutkan belajar.</p><form onSubmit={async e=>{e.preventDefault();if(pending.current)return;pending.current=true;setBusy(true);setError('');try{const r=await fetch('/api/auth/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({password})});const j=await r.json();if(!r.ok)throw Error(j.error||'Belum bisa masuk.');window.location.assign('/')}catch(e){setError(e instanceof Error?e.message:'Belum bisa masuk.');pending.current=false;setBusy(false)}}}><label>Kata sandi<input type="password" autoComplete="current-password" required maxLength={500} value={password} onChange={e=>setPassword(e.target.value)} disabled={busy}/></label>{error&&<p role="alert" className="feedback incorrect">{error}</p>}<button className="primary" disabled={busy||!password}>{busy?'Memeriksa…':'Masuk'}</button></form></section></main>
-}
