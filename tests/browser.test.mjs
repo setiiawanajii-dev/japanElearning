@@ -1,0 +1,17 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {emptyState,applyAction,saveExam,parseBackup,exportBackup} from '../lib/browser-core.ts';
+import {lessons} from '../lib/curriculum.ts';
+const profile={name:'Uji',level:'N5',minutes:20,exam:'',goal:'sehari-hari',start:'zero',furigana:true,romaji:true};
+test('Independent visitors have separate states and profile survives backup roundtrip',()=>{const a=applyAction(emptyState(),{action:'profile',profile}).state;assert.equal(emptyState().profile,null);assert.deepEqual(parseBackup(exportBackup(a)),a)});
+test('Answer grading, review scheduling and completion gate work without a server',()=>{let s=emptyState();assert.throws(()=>applyAction(s,{action:'complete',lessonId:'kana-1'}));for(const q of lessons.find(l=>l.id==='kana-1').questions){const r=applyAction(s,{action:'answer',lessonId:'kana-1',questionId:q.id,answer:q.answers[0]},1000);s=r.state;assert.ok(r.result.correct)}s=applyAction(s,{action:'complete',lessonId:'kana-1'},1000).state;assert.equal(s.completions.length,1);assert.equal(s.reviews[0].interval_days,1);assert.throws(()=>applyAction(s,{action:'answer',lessonId:'kana-1',questionId:'k1',answer:'う',review:true},1001));assert.equal(applyAction(s,{action:'complete',lessonId:'kana-1'}).state.completions.length,1)});
+test('Trimming recent attempts preserves completed-question evidence and totals',()=>{let s=emptyState();for(let i=0;i<505;i++)s=applyAction(s,{action:'answer',lessonId:'kana-1',questionId:'k1',answer:'う'},1000+i).state;assert.equal(s.attempts.length,500);assert.equal(s.stats.attemptsTotal,505);assert.ok(s.mastered.includes('kana-1:k1'))});
+test('Kaiwa remains a browser-local rule demo',()=>{const r=applyAction(emptyState(),{action:'chat',scenarioId:'intro',message:'リナです。',mode:'learn'});assert.equal(r.result.mode,'demo');assert.equal(r.state.chats.length,1);assert.equal(r.state.stats.chatsTotal,1)});
+test('Final exams persist, repeated submission is idempotent, history is bounded',()=>{let s=emptyState();const id=crypto.randomUUID();const r=saveExam(s,id,'N5',[]);s=r.state;assert.equal(r.result.result.correct,0);assert.equal(saveExam(s,id,'N5',[]).state.exams.length,1);for(let i=0;i<12;i++)s=saveExam(s,crypto.randomUUID(),'N5',[],Date.now()+i).state;assert.equal(s.exams.length,10);assert.deepEqual(parseBackup(exportBackup(s)),s);assert.throws(()=>saveExam(s,crypto.randomUUID(),'N5',[{id:'unknown',answer:'x'}]))});
+test('Invalid or unrelated backups cannot silently replace progress',()=>{for(const text of ['broken','{}',JSON.stringify({app:'kotoba-browser',version:9,data:emptyState()}),JSON.stringify({app:'kotoba-browser',version:1,data:{...emptyState(),profile:{name:'x'}}})])assert.throws(()=>parseBackup(text))});
+test('Storage failure is reported and does not pretend to save',async()=>{
+ const store=new Map();globalThis.localStorage={getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v)};globalThis.window={dispatchEvent:()=>true};
+ const {readState,mutateLocal}=await import('../lib/browser-store.ts');await mutateLocal({action:'profile',profile});assert.equal(readState().profile.name,'Uji');
+ globalThis.localStorage.setItem=()=>{throw Error('quota')};await assert.rejects(mutateLocal({action:'profile',profile:{...profile,name:'Changed'}}));assert.equal(readState().profile.name,'Uji');
+ store.set('kotoba-browser-progress-v1','bad');assert.throws(readState);
+});
