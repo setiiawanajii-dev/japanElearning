@@ -1,0 +1,1674 @@
+{
+  "n5-01": [
+    {
+      "id": "kana-1--k1",
+      "kind": "choice",
+      "prompt": "Manakah hiragana untuk bunyi “u”?",
+      "options": [
+        "あ",
+        "う",
+        "お",
+        "え"
+      ],
+      "answers": [
+        "う"
+      ],
+      "explanation": "Dari Lima bunyi pertama: う dibaca u. お dibaca o, sedangkan え dibaca e."
+    },
+    {
+      "id": "hira-a--type",
+      "kind": "text",
+      "prompt": "Tulis kata sakana dengan hiragana.",
+      "answers": [
+        "さかな"
+      ],
+      "explanation": "Dari Hiragana: か sampai の: Ejaan yang diminta: さかな. Perhatikan hiragana/katakana dan ukuran huruf kecil."
+    },
+    {
+      "id": "hira-b--contrast",
+      "kind": "choice",
+      "prompt": "Huruf ん dalam ほん dihitung …",
+      "options": [
+        "tidak dihitung",
+        "dua mora",
+        "satu mora tersendiri",
+        "selalu vokal a"
+      ],
+      "answers": [
+        "satu mora tersendiri"
+      ],
+      "explanation": "Dari Hiragana: は sampai ん: はひふへほ／まみむめも／やゆよ／らりるれろ／わをん. ふ mendekati fu dengan aliran udara di antara bibir; r Jepang berbeda dari r getar panjang Indonesia. を sebagai partikel dibaca o. ん adalah satu mora tersendiri. は/へ dapat berubah bacaan menjadi wa/e saat menjadi partikel."
+    },
+    {
+      "id": "kata-a--identify",
+      "kind": "choice",
+      "prompt": "Katakana untuk “ka” adalah …",
+      "options": [
+        "ク",
+        "カ",
+        "コ",
+        "ケ"
+      ],
+      "answers": [
+        "カ"
+      ],
+      "explanation": "Dari Katakana: ア sampai ソ: カ dibaca ka, sementara ケ dibaca ke."
+    },
+    {
+      "id": "kata-b--type",
+      "kind": "text",
+      "prompt": "Tulis hoteru dengan katakana.",
+      "answers": [
+        "ホテル"
+      ],
+      "explanation": "Dari Katakana: タ sampai ホ: Ejaan yang diminta: ホテル. Perhatikan hiragana/katakana dan ukuran huruf kecil."
+    },
+    {
+      "id": "kata-c--contrast",
+      "kind": "choice",
+      "prompt": "Katakana untuk “n” adalah …",
+      "options": [
+        "ソ",
+        "ノ",
+        "ン",
+        "メ"
+      ],
+      "answers": [
+        "ン"
+      ],
+      "explanation": "Dari Katakana: マ sampai ン: マミムメモ／ヤユヨ／ラリルレロ／ワヲン. ヲ jarang dipakai dalam kata serapan umum. ン tetap satu mora. Ejaan nama asing mengikuti konvensi Jepang, bukan selalu padanan satu huruf satu huruf."
+    },
+    {
+      "id": "kana-voiced--identify",
+      "kind": "choice",
+      "prompt": "は dengan handakuten menjadi …",
+      "options": [
+        "が",
+        "ぱ",
+        "だ",
+        "ば"
+      ],
+      "answers": [
+        "ぱ"
+      ],
+      "explanation": "Dari Dakuten dan handakuten: Handakuten berupa lingkaran kecil: は→ぱ. Dakuten: は→ば."
+    },
+    {
+      "id": "kana-yoon--type",
+      "kind": "text",
+      "prompt": "Tulis kyaku dengan hiragana.",
+      "answers": [
+        "きゃく"
+      ],
+      "explanation": "Dari Yōon: gabungan bunyi: Ejaan yang diminta: きゃく. Perhatikan hiragana/katakana dan ukuran huruf kecil."
+    },
+    {
+      "id": "kana-sokuon--contrast",
+      "kind": "choice",
+      "prompt": "がっこう memiliki …",
+      "options": [
+        "dua mora",
+        "tiga mora",
+        "empat mora",
+        "lima mora"
+      ],
+      "answers": [
+        "empat mora"
+      ],
+      "explanation": "Dari Sokuon: jeda kecil yang bermakna: っ／ッ kecil menahan konsonan berikutnya selama satu mora. きて (datanglah) berbeda dari きって (perangko). Jangan membunyikan っ sebagai tsu biasa. Pada kata seperti がっこう, hitung ga–jeda–ko–u: empat mora."
+    },
+    {
+      "id": "kana-long--identify",
+      "kind": "choice",
+      "prompt": "Katakana untuk koohii adalah …",
+      "options": [
+        "コッヒ",
+        "コーヒー",
+        "コヒッ",
+        "コヒ"
+      ],
+      "answers": [
+        "コーヒー"
+      ],
+      "explanation": "Dari Bunyi panjang: ー mempertahankan panjang vokal sebelumnya; コーヒー memiliki empat mora."
+    },
+    {
+      "id": "kana-contrast--type",
+      "kind": "text",
+      "prompt": "Tulis shatsu dengan katakana.",
+      "answers": [
+        "シャツ"
+      ],
+      "explanation": "Dari Huruf mirip dan bunyi serapan: Ejaan yang diminta: シャツ. Perhatikan hiragana/katakana dan ukuran huruf kecil."
+    }
+  ],
+  "n5-02": [
+    {
+      "id": "intro--i1",
+      "kind": "choice",
+      "prompt": "私はリナ＿＿。 Lengkapi perkenalan sopan.",
+      "options": [
+        "です",
+        "ます",
+        "から",
+        "を"
+      ],
+      "answers": [
+        "です"
+      ],
+      "explanation": "Dari Hajimemashite!: です mengikuti nomina seperti nama. ます mengikuti bentuk batang verba."
+    },
+    {
+      "id": "n5-topic--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Ini buku saya.",
+      "options": [
+        "私の",
+        "本です",
+        "これは"
+      ],
+      "answers": [
+        "これは私の本です"
+      ],
+      "explanation": "Dari Topik, kepemilikan, dan pertanyaan: Nomina + の + nomina menunjukkan hubungan; pertanyaan sopan memakai か. Contoh: これは私の本です。"
+    },
+    {
+      "id": "n5-demonstratives--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 傘",
+      "answers": [
+        "かさ"
+      ],
+      "explanation": "Dari Ini, itu, dan yang di sana: 傘 dibaca かさ dan berarti payung. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-location--meaning",
+      "kind": "choice",
+      "prompt": "Apa arti 椅子 dalam pelajaran ini?",
+      "options": [
+        "kucing",
+        "kursi",
+        "meja",
+        "sebelah"
+      ],
+      "answers": [
+        "kursi"
+      ],
+      "explanation": "Dari Ada di mana?: 椅子 (いす) berarti kursi."
+    },
+    {
+      "id": "n5-read-profile--understand-2",
+      "kind": "choice",
+      "prompt": "Berapa anggota keluarga Rina?",
+      "options": [
+        "五人",
+        "二人",
+        "四人",
+        "三人"
+      ],
+      "answers": [
+        "四人"
+      ],
+      "explanation": "Dari Bacaan: teman baru: 家族は四人です menyatakan empat orang, termasuk Rina.",
+      "passage": "私はリナです。インドネシア人です。今、東京の学校の学生です。家族は四人です。父と母と妹はインドネシアにいます。私は音楽が好きです。"
+    }
+  ],
+  "n5-03": [
+    {
+      "id": "n5-time--form",
+      "kind": "choice",
+      "prompt": "七時＿＿起きます。",
+      "options": [
+        "の",
+        "に",
+        "を",
+        "が"
+      ],
+      "answers": [
+        "に"
+      ],
+      "explanation": "Dari Jam dan hari: Waktu spesifik 七時 ditandai に."
+    },
+    {
+      "id": "n5-numbers--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Buku ini seharga tiga ratus yen.",
+      "options": [
+        "三百円",
+        "です",
+        "この本は"
+      ],
+      "answers": [
+        "この本は三百円です"
+      ],
+      "explanation": "Dari Angka, harga, dan tanggal: Angka majemuk dan tanggal tidak selalu dibaca dengan menggabungkan bunyi dasar. Contoh: この本は三百円です。"
+    },
+    {
+      "id": "n5-counters--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 家族",
+      "answers": [
+        "かぞく"
+      ],
+      "explanation": "Dari Menghitung dengan kata bantu: 家族 dibaca かぞく dan berarti keluarga. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-words-calendar--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 水曜日 pada kalimat: 水曜日は休みです。",
+      "options": [
+        "Kamis",
+        "Jumat",
+        "Rabu",
+        "musim gugur"
+      ],
+      "answers": [
+        "Rabu"
+      ],
+      "explanation": "Dari Kanji dalam konteks: kalender dan musim: Dalam konteks ini, 水曜日 (すいようび) berarti Rabu."
+    },
+    {
+      "id": "n5-listen-time--understand-2",
+      "kind": "choice",
+      "prompt": "Di mana mereka bertemu?",
+      "options": [
+        "店の後ろ",
+        "家の隣",
+        "駅の前",
+        "学校の中"
+      ],
+      "answers": [
+        "駅の前"
+      ],
+      "explanation": "Dari Menyimak: janji di stasiun: B berkata 駅の前で会いましょう.",
+      "audio": "Ａ：明日、何時に会いますか。Ｂ：十時はどうですか。Ａ：すみません。十時はちょっと。十一時はどうですか。Ｂ：いいですよ。駅の前で会いましょう。"
+    }
+  ],
+  "n5-04": [
+    {
+      "id": "n5-masu--form",
+      "kind": "choice",
+      "prompt": "昨日は肉を＿＿。 Pilih negatif lampau.",
+      "options": [
+        "食べません",
+        "食べませんでした",
+        "食べます",
+        "食べました"
+      ],
+      "answers": [
+        "食べませんでした"
+      ],
+      "explanation": "Dari Kegiatan sekarang dan kemarin: ませんでした adalah penutup negatif lampau."
+    },
+    {
+      "id": "n5-motion--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya pergi ke sekolah dengan kereta.",
+      "options": [
+        "学校へ",
+        "行きます",
+        "電車で"
+      ],
+      "answers": [
+        "電車で学校へ行きます"
+      ],
+      "explanation": "Dari Pergi dengan siapa?: Tujuan: に/へ; kendaraan: で; teman: と. Contoh: 電車で学校へ行きます。"
+    },
+    {
+      "id": "n5-action-place--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 図書館",
+      "answers": [
+        "としょかん"
+      ],
+      "explanation": "Dari Tempat melakukan kegiatan: 図書館 dibaca としょかん dan berarti perpustakaan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-read-routine--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang dilakukan pukul tujuh?",
+      "options": [
+        "家を出ます",
+        "起きます",
+        "仕事を始めます",
+        "朝ご飯を食べます"
+      ],
+      "answers": [
+        "朝ご飯を食べます"
+      ],
+      "explanation": "Dari Bacaan: hari kerja Ken: 七時に朝ご飯を食べて menunjukkan sarapan.",
+      "passage": "ケンさんは毎朝六時半に起きます。七時に朝ご飯を食べて、八時に家を出ます。会社へ電車で行きます。仕事は九時から五時までです。夜は家で本を読みます。"
+    }
+  ],
+  "n5-05": [
+    {
+      "id": "n5-i-adjective--form",
+      "kind": "choice",
+      "prompt": "高いの negatif adalah …",
+      "options": [
+        "高いじゃない",
+        "高くだ",
+        "高くない",
+        "高いない"
+      ],
+      "answers": [
+        "高くない"
+      ],
+      "explanation": "Dari Adjektiva-i: Akhiran い diganti くない."
+    },
+    {
+      "id": "n5-na-adjective--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Ini kota yang tenang.",
+      "options": [
+        "静かな",
+        "町です",
+        "ここは"
+      ],
+      "answers": [
+        "ここは静かな町です"
+      ],
+      "explanation": "Dari Adjektiva-na: Sebelum nomina: 静かな町. Akhir kalimat: 静かです. Contoh: ここは静かな町です。"
+    },
+    {
+      "id": "n5-likes--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 音楽",
+      "answers": [
+        "おんがく"
+      ],
+      "explanation": "Dari Suka dan pandai: 音楽 dibaca おんがく dan berarti musik. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-listen-shopping--understand-1",
+      "kind": "choice",
+      "prompt": "Tas apa yang dibeli?",
+      "options": [
+        "黒い鞄",
+        "赤い鞄",
+        "青い鞄",
+        "白い鞄"
+      ],
+      "answers": [
+        "白い鞄"
+      ],
+      "explanation": "Dari Menyimak: memilih tas: Pilihan akhir adalah 白い鞄.",
+      "audio": "客：この黒い鞄はいくらですか。店員：四千円です。客：少し高いですね。あの白い鞄はいくらですか。店員：二千円です。客：じゃ、白い鞄をください。"
+    }
+  ],
+  "n5-06": [
+    {
+      "id": "n5-invite--form",
+      "kind": "choice",
+      "prompt": "一緒に映画を＿＿。 Pilih ajakan sopan.",
+      "options": [
+        "見ませんでした",
+        "見ないです",
+        "見たくない",
+        "見ませんか"
+      ],
+      "answers": [
+        "見ませんか"
+      ],
+      "explanation": "Dari Mengajak dengan sopan: ませんか menyampaikan undangan kepada lawan bicara."
+    },
+    {
+      "id": "n5-wants--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya ingin pergi ke Jepang.",
+      "options": [
+        "行きたい",
+        "です",
+        "日本へ"
+      ],
+      "answers": [
+        "日本へ行きたいです"
+      ],
+      "explanation": "Dari Ingin melakukan sesuatu: Keinginan melakukan: batang ます + たい; keinginan benda: が欲しい. Contoh: 日本へ行きたいです。"
+    },
+    {
+      "id": "n5-purpose--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 買う",
+      "answers": [
+        "かう"
+      ],
+      "explanation": "Dari Pergi untuk melakukan: 買う dibaca かう dan berarti membeli. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-words-food--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 魚 pada kalimat: 魚を食べます。",
+      "options": [
+        "telur",
+        "gula",
+        "ikan",
+        "garam"
+      ],
+      "answers": [
+        "ikan"
+      ],
+      "explanation": "Dari Kosakata dan kanji: makanan: Dalam konteks ini, 魚 (さかな) berarti ikan."
+    },
+    {
+      "id": "n5-read-invite--understand-2",
+      "kind": "choice",
+      "prompt": "Siapa membuat onigiri?",
+      "options": [
+        "先生",
+        "店員",
+        "ユキ",
+        "リナ"
+      ],
+      "answers": [
+        "ユキ"
+      ],
+      "explanation": "Dari Bacaan: pesan ajakan: Pengirim Yuki menggunakan 私 untuk diri sendiri.",
+      "passage": "リナさんへ。土曜日、一緒に公園へ行きませんか。公園でお弁当を食べましょう。私はおにぎりを作ります。飲み物を持ってきてください。十一時に公園の入口で会いましょう。ユキ"
+    }
+  ],
+  "n5-07": [
+    {
+      "id": "n5-te-form--form",
+      "kind": "choice",
+      "prompt": "Bentuk て dari 帰る adalah …",
+      "options": [
+        "帰りて",
+        "帰んで",
+        "帰って",
+        "帰て"
+      ],
+      "answers": [
+        "帰って"
+      ],
+      "explanation": "Dari Membentuk verba て: 帰る adalah golongan I: akhiran る menjadi って."
+    },
+    {
+      "id": "n5-ongoing--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Sekarang saya sedang membaca buku.",
+      "options": [
+        "本を",
+        "読んでいます",
+        "今、"
+      ],
+      "answers": [
+        "今、本を読んでいます"
+      ],
+      "explanation": "Dari Sedang dan keadaan: ている dapat menyatakan proses berlangsung atau keadaan yang bertahan. Contoh: 今、本を読んでいます。"
+    },
+    {
+      "id": "n5-before-after--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 寝る",
+      "answers": [
+        "ねる"
+      ],
+      "explanation": "Dari Sebelum dan sesudah: 寝る dibaca ねる dan berarti tidur. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-listen-sequence--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang harus dilakukan sebelum makan?",
+      "options": [
+        "買い物に行きます",
+        "寝ます",
+        "本を読みます",
+        "手を洗います"
+      ],
+      "answers": [
+        "手を洗います"
+      ],
+      "explanation": "Dari Menyimak: sebelum makan: 食べる前に、手を洗ってください memberi urutan sebelum makan.",
+      "audio": "母：ご飯ですよ。子：今、行きます。母：食べる前に、手を洗ってください。子：はい。母：食べた後で、一緒に買い物に行きましょう。"
+    }
+  ],
+  "n5-08": [
+    {
+      "id": "n5-comparison--form",
+      "kind": "choice",
+      "prompt": "電車はバス＿＿速いです。",
+      "options": [
+        "まで",
+        "から",
+        "だけ",
+        "より"
+      ],
+      "answers": [
+        "より"
+      ],
+      "explanation": "Dari Mana yang lebih?: より menandai pembanding."
+    },
+    {
+      "id": "n5-reason--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Karena hujan, saya tidak keluar.",
+      "options": [
+        "出かけません",
+        "雨ですから、"
+      ],
+      "answers": [
+        "雨ですから、出かけません"
+      ],
+      "explanation": "Dari Mengapa begitu?: Alasan + から + akibat; pertanyaan alasan menggunakan どうして. Contoh: 雨ですから、出かけません。"
+    },
+    {
+      "id": "n5-frequency--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 一週間",
+      "answers": [
+        "いっしゅうかん"
+      ],
+      "explanation": "Dari Sering, kadang, dan tidak pernah: 一週間 dibaca いっしゅうかん dan berarti satu minggu. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-listen-compare--understand-1",
+      "kind": "choice",
+      "prompt": "Apa pilihan B?",
+      "options": [
+        "バスに乗ります",
+        "電車に乗ります",
+        "家に帰ります",
+        "歩きます"
+      ],
+      "answers": [
+        "歩きます"
+      ],
+      "explanation": "Dari Menyimak: memilih kendaraan: B mengusulkan 歩きましょう.",
+      "audio": "Ａ：駅までバスで行きますか。Ｂ：いいえ。今日は道が混んでいますから、歩きましょう。Ａ：歩いて何分ですか。Ｂ：十五分ぐらいです。バスより速いですよ。"
+    }
+  ],
+  "n5-09": [
+    {
+      "id": "n5-negative--form",
+      "kind": "choice",
+      "prompt": "Bentuk ない dari 買う adalah …",
+      "options": [
+        "買いない",
+        "買わない",
+        "買あない",
+        "買うない"
+      ],
+      "answers": [
+        "買わない"
+      ],
+      "explanation": "Dari Jangan dan tidak melakukan: Verba golongan I berakhir う berubah menjadi わない."
+    },
+    {
+      "id": "n5-past-plain--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Kemarin saya bertemu teman.",
+      "options": [
+        "友達に",
+        "会いました",
+        "昨日、"
+      ],
+      "answers": [
+        "昨日、友達に会いました"
+      ],
+      "explanation": "Dari Bentuk lampau biasa: Bentuk た mengikuti pola perubahan て dengan て→た dan で→だ. Contoh: 昨日、友達に会いました。"
+    },
+    {
+      "id": "n5-help-response--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 一度",
+      "answers": [
+        "いちど"
+      ],
+      "explanation": "Dari Memastikan dan meminta bantuan: 一度 dibaca いちど dan berarti sekali. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n5-words-directions--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 西口 pada kalimat: 西口はどこですか。",
+      "options": [
+        "kantor pos",
+        "rumah sakit",
+        "pintu barat",
+        "pos polisi"
+      ],
+      "answers": [
+        "pintu barat"
+      ],
+      "explanation": "Dari Kosakata dan kanji: arah dan tempat: Dalam konteks ini, 西口 (にしぐち) berarti pintu barat."
+    },
+    {
+      "id": "n5-read-notice--understand-2",
+      "kind": "choice",
+      "prompt": "Di mana boleh menelepon menurut pengumuman?",
+      "options": [
+        "受付の前",
+        "机の下",
+        "外",
+        "中"
+      ],
+      "answers": [
+        "外"
+      ],
+      "explanation": "Dari Bacaan: aturan perpustakaan: 電話は外でお願いします mengarahkan pengguna ke luar.",
+      "passage": "図書館は午前九時から午後六時までです。月曜日は休みです。図書館の中で食べないでください。電話は外でお願いします。本は一人三冊までです。"
+    }
+  ],
+  "n4-01": [
+    {
+      "id": "request--r1",
+      "kind": "choice",
+      "prompt": "Bentuk て dari 書く adalah …",
+      "options": [
+        "書いて",
+        "書って",
+        "書くて",
+        "書きて"
+      ],
+      "answers": [
+        "書いて"
+      ],
+      "explanation": "Dari Boleh minta tolong?: Verba golongan I yang berakhir く umumnya berubah menjadi いて. Pengecualian penting: 行く → 行って."
+    },
+    {
+      "id": "n4-permission--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Bolehkah saya duduk di sini?",
+      "options": [
+        "座っても",
+        "いいですか",
+        "ここに"
+      ],
+      "answers": [
+        "ここに座ってもいいですか"
+      ],
+      "explanation": "Dari Izin dan larangan: Izin: てもいい. Larangan: てはいけない. Contoh: ここに座ってもいいですか。"
+    },
+    {
+      "id": "n4-obligation--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 早く",
+      "answers": [
+        "はやく"
+      ],
+      "explanation": "Dari Harus dan tidak perlu: 早く dibaca はやく dan berarti lebih awal atau cepat. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-listen-rule--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang diizinkan?",
+      "options": [
+        "資料を外へ持ち出すこと",
+        "資料を捨てること",
+        "資料を書き換えること",
+        "資料をコピーすること"
+      ],
+      "answers": [
+        "資料をコピーすること"
+      ],
+      "explanation": "Dari Menyimak: izin di kantor: コピーしてもいいですか dijawab はい.",
+      "audio": "Ａ：すみません。この資料をコピーしてもいいですか。Ｂ：はい。でも、外へ持っていかないでください。Ａ：分かりました。今日中に返さなければなりませんか。Ｂ：いいえ、明日の朝で大丈夫です。"
+    }
+  ],
+  "n4-02": [
+    {
+      "id": "n4-experience--form",
+      "kind": "choice",
+      "prompt": "富士山に＿＿ことがあります。",
+      "options": [
+        "登って",
+        "登り",
+        "登ります",
+        "登った"
+      ],
+      "answers": [
+        "登った"
+      ],
+      "explanation": "Dari Pernah melakukan: Pola pengalaman memakai bentuk た sebelum ことがある."
+    },
+    {
+      "id": "n4-tari--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Pada hari Minggu saya antara lain bersih-bersih dan mencuci pakaian.",
+      "options": [
+        "掃除したり、",
+        "洗濯したりします",
+        "日曜日は"
+      ],
+      "answers": [
+        "日曜日は掃除したり、洗濯したりします"
+      ],
+      "explanation": "Dari Contoh kegiatan: たり menyatakan contoh kegiatan; します di akhir memberi waktu dan kesopanan. Contoh: 日曜日は掃除したり、洗濯したりします。"
+    },
+    {
+      "id": "n4-habit--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 歩く",
+      "answers": [
+        "あるく"
+      ],
+      "explanation": "Dari Menjadi dan membiasakan: 歩く dibaca あるく dan berarti berjalan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-read-experience--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang dikhawatirkan sebelum perjalanan?",
+      "options": [
+        "料理が作れるか",
+        "日本語を教えられるか",
+        "ホテルで働けるか",
+        "一人で電車に乗れるか"
+      ],
+      "answers": [
+        "一人で電車に乗れるか"
+      ],
+      "explanation": "Dari Bacaan: pengalaman pertama: Kekhawatiran disebut 電車に一人で乗ることができるか.",
+      "passage": "去年、初めて日本へ旅行しました。日本へ行く前は、電車に一人で乗ることができるか心配でした。でも、駅員さんが地図を見ながら説明してくれたので、迷わずにホテルへ着きました。その経験から、分からないときは質問するようにしています。"
+    }
+  ],
+  "n4-03": [
+    {
+      "id": "n4-potential--form",
+      "kind": "choice",
+      "prompt": "Bentuk potensial 読む adalah …",
+      "options": [
+        "読める",
+        "読まれる",
+        "読ませる",
+        "読もう"
+      ],
+      "answers": [
+        "読める"
+      ],
+      "explanation": "Dari Bisa melakukan: Golongan I mengubah bunyi akhir ke baris e lalu menambahkan る."
+    },
+    {
+      "id": "n4-try--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya akan mencoba memakai sepatu ini.",
+      "options": [
+        "履いて",
+        "みます",
+        "この靴を"
+      ],
+      "answers": [
+        "この靴を履いてみます"
+      ],
+      "explanation": "Dari Mencoba dan menyelesaikan: てみる = mencoba; てしまう = tuntas atau penyesalan sesuai konteks. Contoh: この靴を履いてみます。"
+    },
+    {
+      "id": "n4-preparation--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 予約",
+      "answers": [
+        "よやく"
+      ],
+      "explanation": "Dari Persiapan dan hasil tindakan: 予約 dibaca よやく dan berarti reservasi. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-listen-prep--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang sudah selesai?",
+      "options": [
+        "部屋の予約",
+        "パソコンの確認",
+        "発表そのもの",
+        "資料の印刷"
+      ],
+      "answers": [
+        "資料の印刷"
+      ],
+      "explanation": "Dari Menyimak: menyiapkan presentasi: もう印刷してあります menyatakan keadaan hasil mencetak.",
+      "audio": "Ａ：明日の発表の資料は準備しましたか。Ｂ：はい、もう印刷してあります。Ａ：ありがとうございます。部屋の予約は？Ｂ：まだです。今から予約しておきます。Ａ：では、私はパソコンを確認しておきます。"
+    }
+  ],
+  "n4-04": [
+    {
+      "id": "n4-intention--form",
+      "kind": "choice",
+      "prompt": "来年、日本へ留学する＿＿です。 Pilih niat pribadi.",
+      "options": [
+        "つもり",
+        "ところ",
+        "ばかり",
+        "ながら"
+      ],
+      "answers": [
+        "つもり"
+      ],
+      "explanation": "Dari Rencana dan niat: つもり menunjukkan niat pembicara."
+    },
+    {
+      "id": "n4-decision--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya memutuskan belajar bahasa Jepang setiap hari.",
+      "options": [
+        "日本語を",
+        "勉強することにしました",
+        "毎日、"
+      ],
+      "answers": [
+        "毎日、日本語を勉強することにしました"
+      ],
+      "explanation": "Dari Memutuskan dan ditetapkan: ことにする = memutuskan; ことになる = ditetapkan/hasil keadaan. Contoh: 毎日、日本語を勉強することにしました。"
+    },
+    {
+      "id": "n4-advice--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 無理",
+      "answers": [
+        "むり"
+      ],
+      "explanation": "Dari Memberi saran: 無理 dibaca むり dan berarti memaksakan diri. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-words-health--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 薬 pada kalimat: この薬は何ですか。",
+      "options": [
+        "kartu atau bukti asuransi",
+        "loket penerimaan",
+        "obat",
+        "sakit atau nyeri"
+      ],
+      "answers": [
+        "obat"
+      ],
+      "explanation": "Dari Kosakata dan kanji: menyampaikan kondisi: Dalam konteks ini, 薬 (くすり) berarti obat."
+    },
+    {
+      "id": "n4-read-plan--understand-2",
+      "kind": "choice",
+      "prompt": "Apa yang terjadi jika hujan?",
+      "options": [
+        "金曜日に変わる",
+        "参加者が増える",
+        "活動は中止になる",
+        "八時に始まる"
+      ],
+      "answers": [
+        "活動は中止になる"
+      ],
+      "explanation": "Dari Bacaan: rencana kegiatan warga: 雨が降ったら中止します menyatakan pembatalan.",
+      "passage": "来月の日曜日に、町の公園を掃除する予定です。参加したい人は、今週の金曜日までに名前を書いてください。道具はこちらで準備しますから、持ってこなくてもいいです。雨が降ったら中止します。中止の場合は、当日の朝八時にメールでお知らせします。"
+    }
+  ],
+  "n4-05": [
+    {
+      "id": "n4-tara--form",
+      "kind": "choice",
+      "prompt": "家に＿＿、電話してください。",
+      "options": [
+        "帰るより",
+        "帰ったら",
+        "帰っても",
+        "帰るのに"
+      ],
+      "answers": [
+        "帰ったら"
+      ],
+      "explanation": "Dari Kalau dan setelah: 帰ったら menunjukkan setelah tiba di rumah dalam konteks ini."
+    },
+    {
+      "id": "n4-to-nara--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Jika tombol ini ditekan, pintu terbuka.",
+      "options": [
+        "押すと、",
+        "ドアが開きます",
+        "このボタンを"
+      ],
+      "answers": [
+        "このボタンを押すと、ドアが開きます"
+      ],
+      "explanation": "Dari Akibat tetap dan topik bersyarat: と untuk hasil otomatis; なら untuk saran berdasarkan kondisi/topik. Contoh: このボタンを押すと、ドアが開きます。"
+    },
+    {
+      "id": "n4-node-noni--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 持つ",
+      "answers": [
+        "もつ"
+      ],
+      "explanation": "Dari Alasan dan hasil tak terduga: 持つ dibaca もつ dan berarti membawa atau memegang. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-words-travel--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 乗り換え pada kalimat: 乗り換えはどこですか。",
+      "options": [
+        "satu arah",
+        "pulang-pergi",
+        "pergantian kendaraan",
+        "keberangkatan"
+      ],
+      "answers": [
+        "pergantian kendaraan"
+      ],
+      "explanation": "Dari Kosakata dan kanji: perjalanan: Dalam konteks ini, 乗り換え (のりかえ) berarti pergantian kendaraan."
+    },
+    {
+      "id": "n4-listen-condition--understand-2",
+      "kind": "choice",
+      "prompt": "Apa tindakan yang diminta dari A?",
+      "options": [
+        "資料を印刷する",
+        "家に帰る",
+        "電話で会議に参加する",
+        "会議を中止する"
+      ],
+      "answers": [
+        "電話で会議に参加する"
+      ],
+      "explanation": "Dari Menyimak: terlambat dan pilihan: B meminta 電話で参加してください.",
+      "audio": "Ａ：今、駅に着きましたが、電車が止まっています。Ｂ：そうですか。バスに乗れば、間に合いますか。Ａ：たぶん無理です。Ｂ：では、会議が始まったら、電話で参加してください。資料はメールで送ります。"
+    }
+  ],
+  "n4-06": [
+    {
+      "id": "n4-giving--form",
+      "kind": "choice",
+      "prompt": "友達が私に花を＿＿。",
+      "options": [
+        "もらいました",
+        "いただきました",
+        "あがりました",
+        "くれました"
+      ],
+      "answers": [
+        "くれました"
+      ],
+      "explanation": "Dari Memberi dan menerima benda: くれる menunjukkan pemberian menuju saya/kelompok saya."
+    },
+    {
+      "id": "n4-favors--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya mendapat bantuan belajar bahasa Jepang dari teman.",
+      "options": [
+        "日本語を",
+        "教えてもらいました",
+        "友達に"
+      ],
+      "answers": [
+        "友達に日本語を教えてもらいました"
+      ],
+      "explanation": "Dari Bantuan sebagai kebaikan: てもらう berfokus penerima bantuan, てくれる berfokus pelaku yang membantu saya. Contoh: 友達に日本語を教えてもらいました。"
+    },
+    {
+      "id": "n4-polite-request--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 説明",
+      "answers": [
+        "せつめい"
+      ],
+      "explanation": "Dari Permintaan yang lebih halus: 説明 dibaca せつめい dan berarti penjelasan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-read-favor--understand-1",
+      "kind": "choice",
+      "prompt": "Siapa menerima bantuan?",
+      "options": [
+        "田中さん",
+        "駅員",
+        "近所の子ども",
+        "リナ"
+      ],
+      "answers": [
+        "リナ"
+      ],
+      "explanation": "Dari Bacaan: pesan terima kasih: Penulis Rina memakai 手伝ってくれて dan 運んでもらって.",
+      "passage": "田中さん、昨日は引っ越しを手伝ってくれてありがとうございました。重い机を運んでもらって、本当に助かりました。新しい家は駅から少し遠いですが、前の家より静かです。来週、時間があったら遊びに来ませんか。今度は私が料理を作ります。リナ"
+    }
+  ],
+  "n4-07": [
+    {
+      "id": "n4-relative--form",
+      "kind": "choice",
+      "prompt": "昨日＿＿本を読みます。",
+      "options": [
+        "買ってです",
+        "買った",
+        "買いました",
+        "買います"
+      ],
+      "answers": [
+        "買った"
+      ],
+      "explanation": "Dari Menerangkan nomina: Klausa penerang memakai bentuk biasa sebelum 本."
+    },
+    {
+      "id": "n4-nominalize--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya suka membaca buku.",
+      "options": [
+        "好きです",
+        "本を読むのが"
+      ],
+      "answers": [
+        "本を読むのが好きです"
+      ],
+      "explanation": "Dari Kegiatan sebagai topik: の/こと mengubah klausa kegiatan menjadi frasa nomina; pelajari pola tetapnya. Contoh: 本を読むのが好きです。"
+    },
+    {
+      "id": "n4-report--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 言う",
+      "answers": [
+        "いう"
+      ],
+      "explanation": "Dari Mengutip dan menjelaskan: 言う dibaca いう dan berarti mengatakan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-listen-message--understand-1",
+      "kind": "choice",
+      "prompt": "Kapan Yamada diperkirakan kembali?",
+      "options": [
+        "一時",
+        "二時",
+        "四時",
+        "三時"
+      ],
+      "answers": [
+        "三時"
+      ],
+      "explanation": "Dari Menyimak: pesan titipan: 三時に戻ると言っていました melaporkan ucapan Yamada.",
+      "audio": "Ａ：山田さんはいらっしゃいますか。Ｂ：今、外に出ています。三時に戻ると言っていました。Ａ：では、戻ったら電話をくださるように伝えていただけませんか。Ｂ：分かりました。お名前と電話番号をお願いします。"
+    }
+  ],
+  "n4-08": [
+    {
+      "id": "n4-passive--form",
+      "kind": "choice",
+      "prompt": "私は先生＿＿褒められました。",
+      "options": [
+        "が",
+        "へ",
+        "に",
+        "を"
+      ],
+      "answers": [
+        "に"
+      ],
+      "explanation": "Dari Pasif dasar: Pelaku tindakan pada kalimat pasif ini ditandai に."
+    },
+    {
+      "id": "n4-transitivity--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Jendela terbuka.",
+      "options": [
+        "開いています",
+        "窓が"
+      ],
+      "answers": [
+        "窓が開いています"
+      ],
+      "explanation": "Dari Terbuka atau membuka: Intransitif sering memakai が; transitif mengambil objek dengan を. Contoh: 窓が開いています。"
+    },
+    {
+      "id": "n4-appearance--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 元気",
+      "answers": [
+        "げんき"
+      ],
+      "explanation": "Dari Kelihatannya dan kabarnya: 元気 dibaca げんき dan berarti sehat atau bersemangat. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n4-words-home--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 洗濯機 pada kalimat: 洗濯機が動きません。",
+      "options": [
+        "alamat",
+        "lingkungan sekitar",
+        "mesin cuci",
+        "sewa rumah"
+      ],
+      "answers": [
+        "mesin cuci"
+      ],
+      "explanation": "Dari Kosakata dan kanji: tempat tinggal: Dalam konteks ini, 洗濯機 (せんたくき) berarti mesin cuci."
+    },
+    {
+      "id": "n4-read-problem--understand-2",
+      "kind": "choice",
+      "prompt": "Mengapa tidak diperbaiki sendiri?",
+      "options": [
+        "管理人が来たから",
+        "暑くないから",
+        "危ないから",
+        "道具が高いから"
+      ],
+      "answers": [
+        "危ないから"
+      ],
+      "explanation": "Dari Bacaan: laporan kerusakan: Alasannya secara eksplisit 危ないのでやめました.",
+      "passage": "管理人さんへ。昨日から部屋のエアコンが動きません。窓を開けても、部屋は暑いままです。自分で直そうと思いましたが、危ないのでやめました。明日は午後二時まで家にいます。確認に来ていただけませんか。二時以降は仕事に行きます。"
+    }
+  ],
+  "n3-01": [
+    {
+      "id": "opinion--o1",
+      "kind": "choice",
+      "prompt": "この町は便利＿＿と思います。",
+      "options": [
+        "だ",
+        "な",
+        "です",
+        "に"
+      ],
+      "answers": [
+        "だ"
+      ],
+      "explanation": "Dari Menurut saya…: 便利 adalah adjektiva-na. Sebelum と dalam kutipan pendapat, gunakan bentuk biasa 便利だ."
+    },
+    {
+      "id": "n3-change--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya mulai semakin memahami bahasa Jepang.",
+      "options": [
+        "少し",
+        "分かってきました",
+        "日本語が"
+      ],
+      "answers": [
+        "日本語が少し分かってきました"
+      ],
+      "explanation": "Dari Perubahan menuju sekarang: てくる menuju titik kini; ていく berlanjut dari titik kini. Contoh: 日本語が少し分かってきました。"
+    },
+    {
+      "id": "n3-result--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 名札",
+      "answers": [
+        "なふだ"
+      ],
+      "explanation": "Dari Akhirnya menjadi: 名札 dibaca なふだ dan berarti tanda nama. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-listen-change--understand-1",
+      "kind": "choice",
+      "prompt": "Perubahan apa yang dirasakan B?",
+      "options": [
+        "会話が完全に流暢になった",
+        "単語を全く忘れなくなった",
+        "勉強時間が不要になった",
+        "言いたいことを整理しやすくなった"
+      ],
+      "answers": [
+        "言いたいことを整理しやすくなった"
+      ],
+      "explanation": "Dari Menyimak: cara belajar yang berubah: B menyebut kemampuan menyusun gagasan; tidak mengklaim sudah fasih.",
+      "audio": "Ａ：最近、日本語の勉強はどうですか。Ｂ：前は単語を覚えるだけでしたが、今は毎日短い日記を書くようにしています。Ａ：何か変わりましたか。Ｂ：言いたいことを整理できるようになってきました。ただ、会話になるとまだ時間がかかります。Ａ：では、日記の内容を声に出して説明してみたらどうですか。"
+    }
+  ],
+  "n3-02": [
+    {
+      "id": "n3-degree--form",
+      "kind": "choice",
+      "prompt": "練習すればする＿＿、上手になります。",
+      "options": [
+        "だけでなく",
+        "ため",
+        "ところ",
+        "ほど"
+      ],
+      "answers": [
+        "ほど"
+      ],
+      "explanation": "Dari Semakin, semakin: ば～ほど menghubungkan peningkatan tingkat."
+    },
+    {
+      "id": "n3-comparison--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Dibanding tahun lalu, tahun ini panas.",
+      "options": [
+        "今年は",
+        "暑いです",
+        "去年に比べて、"
+      ],
+      "answers": [
+        "去年に比べて、今年は暑いです"
+      ],
+      "explanation": "Dari Dibanding dan daripada: ほど～ない menyatakan derajat A lebih rendah dari B dalam sifat yang disebut. Contoh: 去年に比べて、今年は暑いです。"
+    },
+    {
+      "id": "n3-excess--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 説明",
+      "answers": [
+        "せつめい"
+      ],
+      "explanation": "Dari Terlalu dan mudah dilakukan: 説明 dibaca せつめい dan berarti penjelasan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-read-options--understand-1",
+      "kind": "choice",
+      "prompt": "Apa prioritas penulis?",
+      "options": [
+        "駅に最も近いこと",
+        "建物が新しいこと",
+        "夜のにぎやかさ",
+        "静かさ"
+      ],
+      "answers": [
+        "静かさ"
+      ],
+      "explanation": "Dari Bacaan: memilih tempat tinggal: Karena banyak bekerja dari rumah, penulis mengutamakan ketenangan.",
+      "passage": "新しい部屋を探している。駅前の部屋は通勤に便利だが、家賃が高く、夜もにぎやかだ。一方、駅から歩いて二十分の部屋は、古いわりにきれいで、家賃も安い。私は家で仕事をする日が多いので、駅からの距離より静かさを重視したい。ただ、買い物に不便ではないか、契約する前に周りの店を確認するつもりだ。"
+    }
+  ],
+  "n3-03": [
+    {
+      "id": "n3-certainty--form",
+      "kind": "choice",
+      "prompt": "明日は雪が降る＿＿。 Pilih kemungkinan, bukan kepastian.",
+      "options": [
+        "かもしれません",
+        "に決まっています",
+        "はずでした",
+        "ことにします"
+      ],
+      "answers": [
+        "かもしれません"
+      ],
+      "explanation": "Dari Pasti, mungkin, seharusnya: かもしれません menyampaikan kemungkinan yang belum pasti."
+    },
+    {
+      "id": "n3-evidence--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Karena jalan basah, sepertinya tadi hujan.",
+      "options": [
+        "雨が降った",
+        "ようです",
+        "道がぬれているので、"
+      ],
+      "answers": [
+        "道がぬれているので、雨が降ったようです"
+      ],
+      "explanation": "Dari Sepertinya berdasarkan petunjuk: ようだ berdasarkan petunjuk; みたいだ lebih santai; らしい sering dari informasi luar. Contoh: 道がぬれているので、雨が降ったようです。"
+    },
+    {
+      "id": "n3-hearsay--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 天気予報",
+      "answers": [
+        "てんきよほう"
+      ],
+      "explanation": "Dari Menyebut sumber informasi: 天気予報 dibaca てんきよほう dan berarti prakiraan cuaca. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-listen-source--understand-1",
+      "kind": "choice",
+      "prompt": "Bagaimana kabar awal diperoleh?",
+      "options": [
+        "公式発表を直接読んだ",
+        "会場で見た",
+        "主催者に電話した",
+        "友達から聞いた"
+      ],
+      "answers": [
+        "友達から聞いた"
+      ],
+      "explanation": "Dari Menyimak: kabar perubahan acara: A jelas menyebut sumber awal 友達から.",
+      "audio": "Ａ：明日のイベント、中止らしいですよ。Ｂ：どこで聞いたんですか。Ａ：友達からです。Ｂ：公式のお知らせを確認しましょう。あ、雨の場合は会場を室内に変更すると書いてあります。中止ではないようです。Ａ：そうでしたか。では、参加者には確認した内容を伝えます。"
+    }
+  ],
+  "n3-04": [
+    {
+      "id": "n3-cause--form",
+      "kind": "choice",
+      "prompt": "友達の＿＿、仕事が早く終わりました。 Pilih rasa terima kasih.",
+      "options": [
+        "おかげで",
+        "せいで",
+        "かわりに",
+        "わりに"
+      ],
+      "answers": [
+        "おかげで"
+      ],
+      "explanation": "Dari Akibat baik dan buruk: おかげで menyatakan sebab yang dinilai membantu."
+    },
+    {
+      "id": "n3-concession--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Padahal sudah belajar, ujiannya terasa sulit.",
+      "options": [
+        "試験は",
+        "難しかったです",
+        "勉強したのに、"
+      ],
+      "answers": [
+        "勉強したのに、試験は難しかったです"
+      ],
+      "explanation": "Dari Meski sudah berusaha: のに = pertentangan dengan harapan; ても = meskipun, termasuk kondisi hipotetis. Contoh: 勉強したのに、試験は難しかったです。"
+    },
+    {
+      "id": "n3-wari--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 値段",
+      "answers": [
+        "ねだん"
+      ],
+      "explanation": "Dari Tidak seperti dugaan: 値段 dibaca ねだん dan berarti harga. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-words-society--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 増加 pada kalimat: 利用者が増加しています。",
+      "options": [
+        "penurunan",
+        "wilayah",
+        "peningkatan",
+        "transportasi atau lalu lintas"
+      ],
+      "answers": [
+        "peningkatan"
+      ],
+      "explanation": "Dari Kosakata dan kanji: lingkungan dan masyarakat: Dalam konteks ini, 増加 (ぞうか) berarti peningkatan."
+    },
+    {
+      "id": "n3-read-cause--understand-2",
+      "kind": "choice",
+      "prompt": "Apa yang diharapkan dari pelanggan?",
+      "options": [
+        "毎日同じ品物を選ぶ",
+        "閉店後に来る",
+        "必要な量を考えて買う",
+        "安い商品を全部買う"
+      ],
+      "answers": [
+        "必要な量を考えて買う"
+      ],
+      "explanation": "Dari Bacaan: perubahan layanan toko: Penulis meminta pelanggan mempertimbangkan jumlah kebutuhan.",
+      "passage": "当店では、食品ロスを減らすため、閉店一時間前から一部の商品を割引しています。安くなるからといって、必要以上に買えば、家庭で捨てることになるかもしれません。店だけでなく、お客様にも必要な量を考えて選んでいただくことで、無駄を減らせると考えています。なお、割引する商品は日によって異なります。"
+    }
+  ],
+  "n3-05": [
+    {
+      "id": "n3-time-point--form",
+      "kind": "choice",
+      "prompt": "今から出かけるところです berarti …",
+      "options": [
+        "sudah lama keluar",
+        "sedang pulang",
+        "tidak jadi keluar",
+        "baru akan keluar"
+      ],
+      "answers": [
+        "baru akan keluar"
+      ],
+      "explanation": "Dari Baru akan, sedang, baru saja: Kamus + ところ menunjukkan tahap segera sebelum bertindak."
+    },
+    {
+      "id": "n3-during--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Silakan makan selagi hangat.",
+      "options": [
+        "食べてください",
+        "温かいうちに"
+      ],
+      "answers": [
+        "温かいうちに食べてください"
+      ],
+      "explanation": "Dari Selama dan selagi: 間 sepanjang durasi; 間に kejadian di dalam durasi; うちに selagi. Contoh: 温かいうちに食べてください。"
+    },
+    {
+      "id": "n3-repeat--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 故郷",
+      "answers": [
+        "ふるさと"
+      ],
+      "explanation": "Dari Setiap kali dan sekaligus: 故郷 dibaca ふるさと dan berarti kampung halaman. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-listen-process--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang sedang dilakukan B?",
+      "options": [
+        "報告書の送信",
+        "会議への出席",
+        "資料の印刷",
+        "数字の確認"
+      ],
+      "answers": [
+        "数字の確認"
+      ],
+      "explanation": "Dari Menyimak: pekerjaan yang belum selesai: ているところ menyatakan tahap pemeriksaan yang sedang berlangsung.",
+      "audio": "Ａ：報告書はもう送れますか。Ｂ：今、数字を確認しているところです。あと十分ほどで終わると思います。Ａ：お客様から新しい情報が来たので、それも入れてください。Ｂ：では、確認が終わってから追加します。Ａ：急がなくてもいいので、間違いがないようにお願いします。"
+    }
+  ],
+  "n3-06": [
+    {
+      "id": "n3-purpose--form",
+      "kind": "choice",
+      "prompt": "忘れない＿＿、メモを取ります。",
+      "options": [
+        "そうに",
+        "ことに",
+        "ように",
+        "ためで"
+      ],
+      "answers": [
+        "ように"
+      ],
+      "explanation": "Dari Supaya dan demi: Tujuan agar tidak lupa lazim dinyatakan dengan ように."
+    },
+    {
+      "id": "n3-ba--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Jika tidak paham, silakan bertanya.",
+      "options": [
+        "聞いてください",
+        "分からなければ、"
+      ],
+      "answers": [
+        "分からなければ、聞いてください"
+      ],
+      "explanation": "Dari Syarat dengan ば: ば membentuk kondisi; negatifnya ～なければ. Contoh: 分からなければ、聞いてください。"
+    },
+    {
+      "id": "n3-limits--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 英語",
+      "answers": [
+        "えいご"
+      ],
+      "explanation": "Dari Hanya dan tidak hanya: 英語 dibaca えいご dan berarti bahasa Inggris. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-read-purpose--understand-1",
+      "kind": "choice",
+      "prompt": "Apa yang ditolak penulis?",
+      "options": [
+        "間違いを恐れないこと",
+        "文法を学ぶこと全体",
+        "相手の話を聞くこと",
+        "話す量だけでよさが決まるという考え"
+      ],
+      "answers": [
+        "話す量だけでよさが決まるという考え"
+      ],
+      "explanation": "Dari Bacaan: aturan kelas percakapan: わけではない menyangkal anggapan bahwa banyak bicara saja sudah baik.",
+      "passage": "このクラスでは、間違いを恐れずに話すことを大切にしています。しかし、話す量が多ければよいというわけではありません。相手の話を聞き、分からない点を確認してから、自分の意見を伝えましょう。会話を続けるためには、正しい文法だけでなく、相手が伝えたいことを理解しようとする姿勢も必要です。"
+    }
+  ],
+  "n3-07": [
+    {
+      "id": "n3-causative--form",
+      "kind": "choice",
+      "prompt": "先生は学生に作文を＿＿。 Pilih menyuruh menulis.",
+      "options": [
+        "書かせました",
+        "書かれました",
+        "書けました",
+        "書きました"
+      ],
+      "answers": [
+        "書かせました"
+      ],
+      "explanation": "Dari Menyuruh atau membiarkan: 書く→書かせる adalah kausatif."
+    },
+    {
+      "id": "n3-causative-passive--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Saya dibuat menunggu lama.",
+      "options": [
+        "長い時間",
+        "待たされました",
+        "私は"
+      ],
+      "answers": [
+        "私は長い時間待たされました"
+      ],
+      "explanation": "Dari Terpaksa melakukan: Kausatif-pasif menempatkan orang yang dibuat bertindak sebagai subjek. Contoh: 私は長い時間待たされました。"
+    },
+    {
+      "id": "n3-permission-self--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 考える",
+      "answers": [
+        "かんがえる"
+      ],
+      "explanation": "Dari Meminta kesempatan: 考える dibaca かんがえる dan berarti berpikir. Perhatikan bacaannya dalam konteks pelajaran."
+    }
+  ],
+  "n3-08": [
+    {
+      "id": "n3-respect--form",
+      "kind": "choice",
+      "prompt": "先生は何と＿＿か。 Pilih bentuk hormat dari 言いました.",
+      "options": [
+        "いただきました",
+        "参りました",
+        "おっしゃいました",
+        "申しました"
+      ],
+      "answers": [
+        "おっしゃいました"
+      ],
+      "explanation": "Dari Menghormati tindakan orang lain: おっしゃる meninggikan tindakan berkata milik orang lain."
+    },
+    {
+      "id": "n3-humble--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Besok saya akan berkunjung ke perusahaan Anda.",
+      "options": [
+        "御社へ",
+        "伺います",
+        "明日、"
+      ],
+      "answers": [
+        "明日、御社へ伺います"
+      ],
+      "explanation": "Dari Merendahkan tindakan sendiri: 謙譲語 untuk tindakan diri/kelompok sendiri; bedakan dari bentuk hormat untuk lawan bicara. Contoh: 明日、御社へ伺います。"
+    },
+    {
+      "id": "n3-discourse--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 環境",
+      "answers": [
+        "かんきょう"
+      ],
+      "explanation": "Dari Menyusun pendapat yang utuh: 環境 dibaca かんきょう dan berarti lingkungan. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-words-work--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 担当 pada kalimat: 担当の方はいらっしゃいますか。",
+      "options": [
+        "memahami atau mengetahui",
+        "perubahan",
+        "penanggung jawab",
+        "kontak"
+      ],
+      "answers": [
+        "penanggung jawab"
+      ],
+      "explanation": "Dari Kosakata dan kanji: koordinasi kerja: Dalam konteks ini, 担当 (たんとう) berarti penanggung jawab."
+    },
+    {
+      "id": "n3-read-email--understand-2",
+      "kind": "choice",
+      "prompt": "Apa yang tetap sesuai rencana?",
+      "options": [
+        "担当者の在席",
+        "翌日の出張",
+        "午前中の資料送付",
+        "午後二時の開始"
+      ],
+      "answers": [
+        "午前中の資料送付"
+      ],
+      "explanation": "Dari Bacaan: email penjadwalan ulang: 資料は予定どおり午前中にお送りします menunjukkan yang tidak berubah.",
+      "passage": "田中様。いつもお世話になっております。明日の打ち合わせについてご相談があります。担当者が急に出張することになったため、開始時刻を午後二時から四時に変更していただけないでしょうか。資料は予定どおり午前中にお送りします。ご都合が悪い場合は、別の日程を調整いたします。ご確認のほど、よろしくお願いいたします。"
+    }
+  ],
+  "n3-09": [
+    {
+      "id": "n3-wake--form",
+      "kind": "choice",
+      "prompt": "高い物がいつもいいわけではありません berarti …",
+      "options": [
+        "dilarang membeli barang mahal",
+        "barang mahal tidak selalu bagus",
+        "barang mahal tidak mungkin bagus",
+        "semua barang murah bagus"
+      ],
+      "answers": [
+        "barang mahal tidak selalu bagus"
+      ],
+      "explanation": "Dari Tidak selalu dan tidak mungkin: わけではない menyangkal generalisasi, bukan seluruh kemungkinan."
+    },
+    {
+      "id": "n3-beki--order",
+      "kind": "order",
+      "prompt": "Susun kalimat: Janji seharusnya ditepati.",
+      "options": [
+        "守るべき",
+        "です",
+        "約束は"
+      ],
+      "answers": [
+        "約束は守るべきです"
+      ],
+      "explanation": "Dari Kewajiban dan sikap: べき menunjukkan anjuran normatif kuat; perhatikan hubungan dan nada. Contoh: 約束は守るべきです。"
+    },
+    {
+      "id": "n3-state--reading",
+      "kind": "text",
+      "prompt": "Tulis cara baca dalam hiragana: 電気",
+      "answers": [
+        "でんき"
+      ],
+      "explanation": "Dari Tetap dan tidak sengaja: 電気 dibaca でんき dan berarti listrik atau lampu. Perhatikan bacaannya dalam konteks pelajaran."
+    },
+    {
+      "id": "n3-words-thought--word-3",
+      "kind": "choice",
+      "prompt": "Apa arti 根拠 pada kalimat: 判断の根拠を確認しましょう。",
+      "options": [
+        "kesimpulan",
+        "perbandingan",
+        "dasar atau bukti pendukung",
+        "pengaruh"
+      ],
+      "answers": [
+        "dasar atau bukti pendukung"
+      ],
+      "explanation": "Dari Kosakata dan kanji: alasan dan pendapat: Dalam konteks ini, 根拠 (こんきょ) berarti dasar atau bukti pendukung."
+    },
+    {
+      "id": "n3-listen-stance--understand-2",
+      "kind": "choice",
+      "prompt": "Apa arti 進めるわけにはいきません di sini?",
+      "options": [
+        "必ず成功する",
+        "進める必要がない",
+        "責任上、そのまま進められない",
+        "身体的に歩けない"
+      ],
+      "answers": [
+        "責任上、そのまま進められない"
+      ],
+      "explanation": "Dari Menyimak: menyatakan keberatan: Ungkapan menunjukkan batas tanggung jawab/norma, bukan ketidakmampuan fisik.",
+      "audio": "Ａ：この方法が一番早いので、すぐ始めるべきだと思います。Ｂ：早いのは分かります。ただ、安全性を確認しないまま進めるわけにはいきません。Ａ：時間がかかりすぎませんか。Ｂ：全部やり直すより、今確認したほうがよいのではないでしょうか。Ａ：確かにそうですね。先に確認しましょう。"
+    }
+  ]
+}
